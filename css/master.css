@@ -1,0 +1,16 @@
+.fab{
+  color:rgba(0,0,0,0.5);
+}
+.fab:hover{
+  color:rgba(0,0,0,1);
+}
+.Brand-name{
+  font-family:'Cinzel Decorative', cursive;
+  font-size:2em;
+}
+
+@media only screen and (max-width: 768px){
+  .fab{
+      color:rgba(0,0,0,1);
+  }
+}
