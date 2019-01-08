@@ -1,16 +1,56 @@
+.content .title{
+  margin-bottom:0%;
+  font-weight:400;
+  color:gold;
+}
+a{
+  color:rgba(255,215,0,0.5);
+}
+a:hover{
+  color:rgba(255,215,0,1);
+}
 .fab{
-  color:rgba(0,0,0,0.5);
+  color:rgba(255,215,0,0.5);
 }
 .fab:hover{
-  color:rgba(0,0,0,1);
+  color:rgba(255,215,0,1);
+}
+.fa-om{
+  color:gold;
 }
 .Brand-name{
   font-family:'Cinzel Decorative', cursive;
-  font-size:2em;
+  font-size:1.5em;
+  color:gold;
+}
+.content .subtitle, .content .title{
+  font-weight:400;
+  font-family:'Ubuntu Mono';
+  text-align:left;
+}
+#img{
+  font-family:"Roboto";
+  font-weight:300;
+  text-align:center;
+}
+.nav-link{
+  font-size:1.2em;
+  color:rgba(255,215,0,0.5);
+  font-family:'Roboto';
+}
+.nav-link:hover{
+  color:rgba(255,215,0,1);
+  border-bottom:1px solid gold;
 }
 
 @media only screen and (max-width: 768px){
   .fab{
-      color:rgba(0,0,0,1);
+      color:rgba(255,215,0,1);
+  }
+  .navbar-menu{
+    background-color: black;
+  }
+  .fa-om{
+    color:gold;
   }
 }
