@@ -26,9 +26,7 @@
 .box{
   border-radius:12px;
 }
-#contact-btn{
-  margin-bottom:0px;
-}
+
 .content .title{
   margin-bottom:0%;
   font-weight:400;
@@ -85,7 +83,10 @@ a:hover{
   margin-bottom:5%;
   margin-top:1%;
 }
-
+.is-5{
+    margin-top:15%;
+    color:#ae0707;
+}
 
 
 
@@ -115,4 +116,8 @@ a:hover{
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
   }
+  #contact-btn{
+    margin-bottom:0.6666em;
+  }
+
 }
