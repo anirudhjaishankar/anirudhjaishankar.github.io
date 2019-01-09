@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="css/master.css">
   </head>
-  <body>
+  <body class="has-navbar-fixed-top">
 
     <!-- Navbar -->
-    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top is-white" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://sites.google.com/view/anirudh-resume/home">
           <div class="Brand-name">
@@ -45,10 +45,10 @@
         </div>
         <div class="navbar-end">
           <div class="navbar-item nav-link">
-            <a href="#">Education</a>
+            <a href="#skills">Skills</a>
           </div>
           <div class="navbar-item nav-link">
-            <a href="#">Skills</a>
+            <a href="#">Education</a>
           </div>
           <div class="navbar-item nav-link">
             <a href="#">Projects</a>
@@ -62,34 +62,47 @@
     </nav>
 
     <!-- Hero -->
-    <section class="hero is-dark is-fullheight-with-navbar">
+    <section class="hero is-white is-fullheight-with-navbar has-text-centered">
       <div class="hero-body">
-        <div class="container">
-          <div class="columns is-gapless">
-            <div class="column">
-              <div class="content is-medium">
-                <h6 class='title is-1'>Anirudh J</h6>
-                <h6 class='title is-3'>Software developer;</h6>
+        <div class="container" >
+          <div class="columns">
+            <div class="column is-three-fifths">
+              <div class="box ">
+                <div class="content is-medium">
+                  <h6 class='title is-1'>Anirudh J</h6>
+                  <h6 class='title is-3' id='webdev'>Web/Software developer;</h6>
+                  <a href="mailto:anirudhjaishankar97@gmail.com" class="button is-link is-rounded is-outlined"><h3 class="is-5" id='contact-btn'>Say Hello</h3> </a>
+                </div>
               </div>
-            </div>
-            <div class="column">
-              <img src="images/Hero.png" alt="">
-              <h6 class='title is-4' id="img">Searching perpetual balance in life. <i class="fas fa-om"></i></h6>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class='section'>
+    <section class='section' id='skills'>
       <div class="container">
-        <div class="columns">
-          <div class="column">
-            <h1 class='title is-large'>Skills</h1>
-          </div>
-          <div class="column">
-            <div class="box">
-
+        <h1 class='title is-large'>Skills</h1>
+          <div class="box">
+            <div class="columns is-gapless">
+            <div class="column has-text-centered skill">
+              <div class="icons">
+                <i class="fas fa-code"></i>
+              </div>
+                <h1 class='title is-4'>Front End Developer</h1>
             </div>
+            <div class="column has-text-centered skill">
+              <div class="icons">
+                <i class="fas fa-server"></i>
+              </div>
+                <h1 class='title is-4'>Back End Developer</h1>
+            </div>
+            <div class="column has-text-centered">
+              <div class="icons">
+                <i class="fas fa-desktop"></i>
+              </div>
+                <h1 class='title is-4'>Software Developer</h1>
+            </div>
+          </div>
           </div>
         </div>
       </div>
