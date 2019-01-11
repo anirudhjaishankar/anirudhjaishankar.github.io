@@ -111,7 +111,7 @@ a:hover{
 }
 #goal-content{
   margin-top:-11rem;
-  width:45rem;
+  width:46rem;
 }
 #skills{
   margin-top:-20rem;
@@ -122,6 +122,12 @@ a:hover{
 
 /* Mobile css */
 @media only screen and (max-width: 768px){
+  .hero-body{
+    background-image:url('../images/Hero.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
   .fab{
       color:rgba(0,0,0,1);
   }
@@ -141,6 +147,10 @@ a:hover{
       border-bottom:1px solid #eee;
       border-right:none;
   }
+  .white{
+    color:white;
+    font-family:"Thasadith";
+  }
   #webdev{
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
@@ -148,5 +158,19 @@ a:hover{
   #contact-btn{
     margin-bottom:0.6666em;
   }
+  #goal-content{
+    margin-top:0rem;
+    width:100%;
+  }
+  #goal{
+    background: #642b73; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #642b73, #c6426e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #642b73, #c6426e);
+    height:40rem;
+  }
+  #skills{
+    margin-top:-20rem;
+  }
+
 
 }
