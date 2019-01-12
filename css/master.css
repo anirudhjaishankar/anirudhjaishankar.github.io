@@ -116,6 +116,26 @@ a:hover{
 #skills{
   margin-top:-20rem;
 }
+.level{
+  width:30%;
+  display:inline-table;
+}
+#level-box{
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#level-tag{
+  width:60%;
+  margin-left:20%;
+}
+#intrests{
+  background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 
 
@@ -170,6 +190,20 @@ a:hover{
   }
   #skills{
     margin-top:-20rem;
+  }
+  .level{
+    width:100%;
+    display:block;
+  }
+  #level-box{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  #level-tag{
+    width:100%;
+    margin-left:0%;
   }
 
 
